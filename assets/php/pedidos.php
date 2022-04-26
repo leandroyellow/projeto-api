@@ -28,7 +28,7 @@ print_r($resultado);
 
 echo '<hr>';
 foreach ($resultado as $usuarioID) {
-   echo $usuarioID['usuario']['usuarioId'] . "<br>";
+   echo $usuarioID['pagamento'][0]['formaPagamentoId'] . "<br>";
 }
 
 
